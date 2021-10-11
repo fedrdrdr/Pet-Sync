@@ -1,0 +1,41 @@
+.profile-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.profile-links {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.profile-links-selected {
+  width: 80%;
+  border-bottom: 2px solid #000;
+}
+
+.main-profile {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-item {
+  max-width: 100%;
+  max-height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-nav {
+  width: 100%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 25px;
+}

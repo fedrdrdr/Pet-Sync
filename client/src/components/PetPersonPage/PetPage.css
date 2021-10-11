@@ -1,0 +1,153 @@
+.pet-profile {
+  max-width: 100%;
+  max-height: 280px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 50px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.15s linear;
+}
+
+.pet-profile:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.pet-del-btn {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+}
+
+.formater {
+  display: flex;
+}
+
+.pet-info {
+  min-width: 245px;
+  margin-left: 40px;
+}
+
+.info-item {
+  padding: 7px 0
+}
+
+.diet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet-diet-base {
+  display: inline-block;
+  min-width: 500px;
+  max-height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 0 10px 50px 0;
+  margin-right: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-decoration: none;
+  color: #000;
+  transition: box-shadow 0.15s linear;
+}
+
+.pet-diet-base:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+
+.pet-diet-exact {
+  min-width: 500px;
+  max-height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 0 0 50px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.15s linear;
+}
+
+.pet-diet-exact:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.pet-test {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.test-item {
+  min-width: 330px;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.15s linear;
+}
+
+.test-item:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.image {
+  width: 220px;
+  height: 220px;
+}
+
+.edit {
+  margin-left: 70px;
+
+}
+
+.del {
+  margin-left: 20px;
+}
+
+.plus {
+  position: relative;
+  top: 250px;
+  left: 220px;
+}
+
+.plus:hover {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+

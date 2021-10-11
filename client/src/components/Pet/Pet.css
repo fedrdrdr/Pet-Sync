@@ -1,0 +1,62 @@
+.pet-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-item {
+  min-width: 330px;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.15s linear;
+}
+
+.pet-item:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  z-index: 11111;
+}
+
+.pet-item-add {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 330px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 10px;
+  border: 2px dashed lightgray;
+  font-size: 18px;
+  font-weight: 700;
+  color: lightgray;
+  padding: auto 0;
+  cursor: pointer;
+}
+
+.pet-item-add p {
+  margin: 150px 0;
+}
+
+.pet-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.pet-desc {
+  margin-bottom: 20px;
+}
+
+.img {
+  position: absolute;
+  transform: translateX(10px);
+  transform: translateY(50px);
+}

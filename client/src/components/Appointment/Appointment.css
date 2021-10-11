@@ -1,0 +1,7 @@
+.main-appointment{
+  width: 900px;
+  margin: 70px auto;
+  height: 700px;
+  border-radius: 15px;
+  z-index: 1000000;
+}
